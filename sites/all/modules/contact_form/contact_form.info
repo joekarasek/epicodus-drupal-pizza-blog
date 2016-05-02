@@ -1,0 +1,4 @@
+name = My contact form
+description = Removes checkbox from contact form
+package = Custom
+core = 7.x
