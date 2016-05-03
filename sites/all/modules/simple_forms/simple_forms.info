@@ -1,0 +1,5 @@
+name = Simple Forms
+description = Cleans up forms to user to not be confused as f.
+package = Custom
+core = 7.x
+files[] = simple_forms.module
