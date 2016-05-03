@@ -1,7 +1,7 @@
 <?php
 
 function simple_forms_form_alter(&$form, &$form_state, $form_id) {
-  print_r($form_id);
+
   if($form_id == 'tips_and_tricks_node_form' || $form_id == 'news_node_form' || $form_id == 'recipe_node_form') {
     $form['options']['#access'] = 0;
     $form['comment_settings']['#access'] = 0;
