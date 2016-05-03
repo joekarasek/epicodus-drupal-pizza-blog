@@ -5,6 +5,7 @@ function simple_forms_form_alter(&$form, &$form_state, $form_id) {
   if($form_id == 'tips_and_tricks_node_form' || $form_id == 'news_node_form' || $form_id == 'recipe_node_form') {
     $form['options']['#access'] = 0;
     $form['comment_settings']['#access'] = 0;
+    $form['comment_settings']['comment']['#default_value'] = 0;
     $form['menu']['#access'] = 0;
     $form['path']['#access'] = 0;
     $form['revision_information']['#access'] = 0;
