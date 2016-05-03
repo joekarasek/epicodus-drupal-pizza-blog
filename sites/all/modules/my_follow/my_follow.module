@@ -1,0 +1,12 @@
+<?php
+
+function my_follow_follow_network_alter(&$networks, $uid = 0) {
+  $networks['$uid']['friendster'] = array(
+    'title' => t('Friendster'),
+    'domain' => 'http://www.friendster.com/'
+  );
+  $networks['$uid']['aol'] = array(
+    'title' => t('Aol'),
+    'domain' => 'http://www.aol.com/'
+  );
+}

@@ -1,0 +1,5 @@
+name = Custom Follow
+description = Adds esoteric social media to follow
+package = Custom
+core = 7.x
+files[] = my_follow.module
