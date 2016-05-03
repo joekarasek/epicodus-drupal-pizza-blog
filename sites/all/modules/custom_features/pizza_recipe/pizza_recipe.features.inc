@@ -18,12 +18,28 @@ function pizza_recipe_ctools_plugin_api($module = NULL, $api = NULL) {
  */
 function pizza_recipe_node_info() {
   $items = array(
+    'news' => array(
+      'name' => t('News'),
+      'base' => 'node_content',
+      'description' => t('The latest pizza news.'),
+      'has_title' => '1',
+      'title_label' => t('Article Title'),
+      'help' => '',
+    ),
     'recipe' => array(
       'name' => t('Recipe'),
       'base' => 'node_content',
       'description' => t('Add a Recipe'),
       'has_title' => '1',
       'title_label' => t('Title'),
+      'help' => '',
+    ),
+    'tips_and_tricks' => array(
+      'name' => t('Tips and Tricks'),
+      'base' => 'node_content',
+      'description' => t('Tips and Tricks for cooking pizza.'),
+      'has_title' => '1',
+      'title_label' => t('Tip TItle'),
       'help' => '',
     ),
   );
