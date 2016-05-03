@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Pizza Recipe feature.
+ */
+
+include_once 'pizza_recipe.features.inc';
